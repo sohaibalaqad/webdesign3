@@ -1,0 +1,144 @@
+/*********************************
+6. Deal of the week
+*********************************/
+
+
+.deal_ofthe_week
+{
+	width: 100%;
+	margin-top: 41px;
+	background: #f2f2f2;
+}
+.deal_ofthe_week_img
+{
+	height: 540px;
+}
+.deal_ofthe_week_img img
+{
+	margin-top: 100px;
+	height: 60%;
+}
+.deal_ofthe_week_content
+{
+	height: 100%;
+}
+.section_title
+{
+	display: inline-block;
+	text-align: center;
+}
+.section_title h2
+{
+	display: inline-block;
+}
+.section_title::after
+{
+	display: block;
+	position: absolute;
+	top: calc(100% + 13px);
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+	transform: translateX(-50%);
+	width: 60px;
+	height: 5px;
+	background: #53d9fa;
+	content: '';
+}
+.timer
+{
+	margin-top: 66px;
+}
+.timer li
+{
+	display: inline-block;
+	width: 120px;
+	height: 120px;
+	border-radius: 10%;
+	background: #FFFFFF;
+	margin-right: 10px;
+}
+.timer li:last-child
+{
+	margin-right: 0px;
+}
+.timer_num
+{
+	font-size: 48px;
+	font-weight: 600;
+	color: #53d9fa;
+	margin-top: 10px;
+}
+.timer_unit
+{
+	margin-top: 12px;
+	font-size: 16px;
+	font-weight: 500;
+	color: #51545f;
+}
+.deal_ofthe_week_button
+{
+	width: 140px;
+	background: #27282c;
+	margin-top: 52px;
+}
+.deal_ofthe_week_button:hover
+{
+	background: #14141a !important;
+}
+
+.benefit
+{
+    margin-top: 74px;
+    color: #f2f2f2;
+    
+}
+.benefit_row
+{
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.benefit_col
+{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.benefit_item
+{
+	height: 100px;
+	background: #51545f;
+	border-right: solid 1px #5c5e64;
+    padding-left: 25px;
+    border-radius: 5px;
+    margin: 0 5px;
+}
+.benefit_col:last-child .benefit_item
+{
+	border-right: none;
+}
+.benefit_icon i
+{
+	font-size: 30px;
+	color: #53d9fa;
+}
+.benefit_content
+{
+	padding-left: 22px;
+}
+.benefit_content h6
+{
+	text-transform: uppercase;
+	line-height: 18px;
+	font-weight: 500;
+    margin-bottom: 0px;
+    color: #f2f2f2;
+}
+.benefit_content p
+{
+	font-size: 12px;
+	line-height: 18px;
+	margin-bottom: 0px;
+	color: #f2f2f2;
+}
